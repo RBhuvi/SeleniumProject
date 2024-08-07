@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-14T09:27:22.941Z",
+        "line": 3,
+        "name": "Validation of login detail",
+        "description": "",
+        "id": "validation-the-facebook-detail;validation-of-login-detail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2619549700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Facebook Pages",
+            "match": {
+              "location": "StepDefinition7.facebook_Pages()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119687400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter in to facebook username and pwd",
+            "match": {
+              "location": "StepDefinition7.user_enter_in_to_facebook_username_and_pwd(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "pwd",
+                  "email"
+                ]
+              },
+              {
+                "cells": [
+                  "arthi",
+                  "2345",
+                  "test1@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "riya",
+                  "09876",
+                  "test2@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "ragul",
+                  "45678",
+                  "test3@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64316300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click the login buttons and messages display",
+            "match": {
+              "location": "StepDefinition7.user_click_the_login_buttons_and_messages_display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Success messages was displayeds",
+            "match": {
+              "location": "StepDefinition7.success_messages_was_displayeds()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginDataWithHeader"
+          }
+        ]
+      }
+    ],
+    "name": "Validation the facebook detail",
+    "description": "",
+    "id": "validation-the-facebook-detail",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/bhuvi/Downloads/Browser/Browser/src/test/resources/cucumber/file6.feature",
+    "tags": []
+  }
+]

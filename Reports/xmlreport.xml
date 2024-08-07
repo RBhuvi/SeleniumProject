@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.683413">
+    <testcase classname="Validation the facebook detail" name="Validation of login detail" time="1.683413">
+        <failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 122&#10;Current browser version is 126.0.6478.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'BHUVI', ip: '192.168.0.195', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: &#9;GetHandleVerifier [0x009E8C93+51395]&#10;&#9;(No symbol) [0x00955EF1]&#10;&#9;(No symbol) [0x0080E13A]&#10;&#9;(No symbol) [0x0083A021]&#10;&#9;(No symbol) [0x008395DB]&#10;&#9;(No symbol) [0x008354AE]&#10;&#9;(No symbol) [0x00831E29]&#10;&#9;(No symbol) [0x0086C655]&#10;&#9;(No symbol) [0x0086C1FA]&#10;&#9;(No symbol) [0x00863C26]&#10;&#9;(No symbol) [0x0083C629]&#10;&#9;(No symbol) [0x0083D40D]&#10;&#9;GetHandleVerifier [0x00D66453+3711107]&#10;&#9;GetHandleVerifier [0x00DA583A+3970154]&#10;&#9;GetHandleVerifier [0x00DA0B28+3950424]&#10;&#9;GetHandleVerifier [0x00A99C99+776393]&#10;&#9;(No symbol) [0x009616C4]&#10;&#9;(No symbol) [0x0095C5A8]&#10;&#9;(No symbol) [0x0095C759]&#10;&#9;(No symbol) [0x0094DD80]&#10;&#9;BaseThreadInitThunk [0x75967BA9+25]&#10;&#9;RtlInitializeExceptionChain [0x777FC10B+107]&#10;&#9;RtlClearBits [0x777FC08F+191]&#10;&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;&#10;&#9;at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)&#13;&#10;&#9;at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;&#10;&#9;at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;&#10;&#9;at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at project1.BaseClasss.getDriver(BaseClasss.java:18)&#13;&#10;&#9;at stepdefinition.StepDefinition7.facebook_Pages(StepDefinition7.java:19)&#13;&#10;&#9;at ✽.Facebook Pages(file:/C:/Users/bhuvi/Downloads/Browser/Browser/src/test/resources/cucumber/file6.feature:4)&#13;&#10;"><![CDATA[Given Facebook Pages........................................................failed
+When User enter in to facebook username and pwd.............................skipped
+And User click the login buttons and messages display.......................skipped
+Then Success messages was displayeds........................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 122
+Current browser version is 126.0.6478.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUVI', ip: '192.168.0.195', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x009E8C93+51395]
+	(No symbol) [0x00955EF1]
+	(No symbol) [0x0080E13A]
+	(No symbol) [0x0083A021]
+	(No symbol) [0x008395DB]
+	(No symbol) [0x008354AE]
+	(No symbol) [0x00831E29]
+	(No symbol) [0x0086C655]
+	(No symbol) [0x0086C1FA]
+	(No symbol) [0x00863C26]
+	(No symbol) [0x0083C629]
+	(No symbol) [0x0083D40D]
+	GetHandleVerifier [0x00D66453+3711107]
+	GetHandleVerifier [0x00DA583A+3970154]
+	GetHandleVerifier [0x00DA0B28+3950424]
+	GetHandleVerifier [0x00A99C99+776393]
+	(No symbol) [0x009616C4]
+	(No symbol) [0x0095C5A8]
+	(No symbol) [0x0095C759]
+	(No symbol) [0x0094DD80]
+	BaseThreadInitThunk [0x75967BA9+25]
+	RtlInitializeExceptionChain [0x777FC10B+107]
+	RtlClearBits [0x777FC08F+191]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at project1.BaseClasss.getDriver(BaseClasss.java:18)
+	at stepdefinition.StepDefinition7.facebook_Pages(StepDefinition7.java:19)
+	at ✽.Facebook Pages(file:/C:/Users/bhuvi/Downloads/Browser/Browser/src/test/resources/cucumber/file6.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>
